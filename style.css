@@ -135,11 +135,14 @@ body {
 
 /* MOBILE */
 @media (max-width: 700px) {
+  body {
+    overflow-y: hidden;
+  }
   h1 {
     font-size: 30px;
   }
   .img-container {
-    max-width: 35px;
+    max-width: 10px;
   }
   .img-container img {
     width: 60px;
@@ -147,6 +150,19 @@ body {
     margin-left: 0px;
   }
   .navigation {
-    margin-left: 15px;
+    margin-left: 10px;
+    justify-content: flex-end;
+    width: 200px;
   }
+  .action-btn-big {
+    font-size: 25px;
+  }
+  .action-btn {
+    font-size: 15px;
+    margin: 0 10px;
+  }
+  /* .img-container img {
+    bottom: 5;
+    transform: translateY(-35px);
+  } */
 }
