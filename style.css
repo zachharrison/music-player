@@ -145,8 +145,8 @@ body {
     max-width: 10px;
   }
   .img-container img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin-left: 0px;
   }
   .navigation {
@@ -161,6 +161,10 @@ body {
     font-size: 15px;
     margin: 0 10px;
   }
+  .music-info {
+    padding: 10px 10px 10px 100px;
+  }
+
   /* .img-container img {
     bottom: 5;
     transform: translateY(-35px);
